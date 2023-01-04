@@ -4,7 +4,7 @@ name: release-solution-to-prod
 #   upload the solution to the GitHub artifacts and deploy to the PROD environment
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: #manually start the action
   release:
     types: [created] #going to be triggered when we create a release
 
