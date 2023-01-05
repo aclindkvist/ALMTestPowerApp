@@ -20,12 +20,6 @@
           </Titles>
         </SubArea>
         <SubArea Id="subarea_b7a3540e" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="almtest_timeoffrequest" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
-        <SubArea Id="subarea_6e6e6512" ResourceId="SitemapDesigner.NewSubArea" Icon="/_imgs/imagestrips/transparent_spacer.gif" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" Page="cr0f0_page1_fe974">
-          <Titles>
-            <Title LCID="1033" Title="Page1" />
-          </Titles>
-        </SubArea>
-        <SubArea Id="subarea_68236037" ResourceId="SitemapDesigner.NewSubArea" Icon="/_imgs/imagestrips/transparent_spacer.gif" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" Page="cr0f0_page1_fe974" />
       </Group>
     </Area>
   </SiteMap>
