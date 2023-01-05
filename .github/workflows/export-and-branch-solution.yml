@@ -16,7 +16,6 @@ jobs:
       with:
         lfs: true
 
-#The following will check out our repo
     - name: who-am-i action
       uses: microsoft/powerplatform-actions/who-am-i@v0
       with:
