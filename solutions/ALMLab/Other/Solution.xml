@@ -79,6 +79,7 @@
     </Publisher>
     <RootComponents>
       <RootComponent type="1" schemaName="almtest_timeoffrequest" behavior="0" />
+      <RootComponent type="300" schemaName="almtest_buttons_33eca" behavior="0" />
       <RootComponent type="62" schemaName="almtest_TimeOffRequests" behavior="0" />
       <RootComponent type="80" schemaName="almtest_TimeOffRequests" behavior="0" />
     </RootComponents>
