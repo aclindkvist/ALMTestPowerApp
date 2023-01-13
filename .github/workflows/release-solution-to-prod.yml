@@ -27,18 +27,18 @@ jobs:
         solution-file: out/solutions/ALMLab.zip
         solution-type: Unmanaged
 
-#import to build environment 
+#import to test environment 
     - name: Import solution as unmanaged to build env
       uses: microsoft/powerplatform-actions/import-solution@v0
       with:
-        environment-url: 'https://org035edfb3.crm.dynamics.com' #Change to build environment URL
+        environment-url: 'https://org035edfb3.crm.dynamics.com' #Change to test environment URL
         user-name: 'admin@CRM564374.onmicrosoft.com'
         password-secret: ${{ secrets.password }}
         solution-file: out/solutions/ALMLab.zip
         force-overwrite: true
         publish-changes: true
 
-#Export the managed solution 
+#Export the  solution as managed
     - name: Export solution as managed
       uses: microsoft/powerplatform-actions/export-solution@v0
       with:
